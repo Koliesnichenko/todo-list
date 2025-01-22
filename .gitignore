@@ -1,3 +1,77 @@
-.idea
+# Django specific
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+media/
+
+# Python specific
+*.py[cod]
+*$py.class
+.Python
+*.so
+*.egg
+*.egg-info/
+.installed.cfg
+*.manifest
+*.spec
+*.mo
+.pybuilder/
+target/
+.Python
+pyrightconfig.json
+
+# Virtual environments
+.env
 .venv
-__pycache__
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+__pypackages__/
+
+# IDEs and tools
+.idea/
+.vscode/
+*.vsix
+.spyderproject
+.spyproject
+.ropeproject
+
+# Build and dist folders
+build/
+dist/
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+sdist/
+wheels/
+
+# Test and coverage files
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.pytest_cache/
+
+# Documentation
+docs/_build/
+
+# Static type checkers
+.mypy_cache/
+.dmypy.json
+.pyre/
+.pytype/
+cython_debug/
+.ruff_cache/

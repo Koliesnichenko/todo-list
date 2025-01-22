@@ -1,0 +1,44 @@
+body {
+    margin-top: 20px;
+}
+
+.btn-right-side {
+    float: right;
+    margin: 0 2px 0 2px;
+}
+
+.done-task{
+    color: green;
+}
+
+.not-done-task{
+    color: red;
+}
+
+.deadline-text{
+    color: brown;
+}
+
+.text-link {
+  color: #007bff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.text-link:hover {
+  color: #0056b3;
+}
+
+.task-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.button-container {
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
